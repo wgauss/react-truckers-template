@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+img{
+	z-index: 2;
+	width: 100vw;
+}
+#logoTitlePhone{
+	padding-top:3vw;
+	padding-left:3vw;
+	padding-right:5vw;
+	height: 250px;
+	object-fit: contain;
+}
+#logoTitleTab{
+	object-fit: contain;
+	height: 250px;
+}
+#logoTitleDesk{
+	object-fit: contain;
+	height: 350px;
+}
+hr{
+	background: black;
+}
+.navBar{
+	padding:2.3%;
+}
+.navBarTab{
+
+}
+.navBarDesk{
+	padding:1.3%;
+}
+.navBar:hover{
+	text-decoration: none;
+}
