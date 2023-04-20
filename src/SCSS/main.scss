@@ -6,6 +6,18 @@ img{
 	z-index: 2;
 	width: 100vw;
 }
+.ImageDesk{
+	height: 650px;
+	object-fit:scale-down;
+}
+.ImageTab{
+	height: 550px;
+	object-fit:scale-down;
+}
+.ImagePhone{
+	height: 100vh;
+	object-fit:scale-down;
+}
 #logoTitlePhone{
 	padding-top:3vw;
 	padding-left:3vw;

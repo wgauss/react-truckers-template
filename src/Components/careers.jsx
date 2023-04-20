@@ -39,9 +39,9 @@ export const Careers = () => {
 						<Flex justifyContent={"center"}><Apply/></Flex> 
 						<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 							<Text fontSize={48} textAlign={"center"}>Positions Available</Text>
-							<img src={require("../Images/hiringPromo1.jpg")}/>
+							<img src={require("../Images/hiringPromo1.jpg")} className='ImageDesk'/>
 							<Apply/>
-							<img src={require("../Images/hiringPromo2.jpg")}/>
+							<img src={require("../Images/hiringPromo2.jpg")} className='ImageDesk'/>
 						</VStack>
 						<Flex justifyContent={"center"}><Apply/></Flex>
 					</Box>
@@ -53,9 +53,9 @@ export const Careers = () => {
 						<Flex justifyContent={"center"}><Apply/></Flex> 
 						<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 							<Text fontSize={48} textAlign={"center"}>Positions Available</Text>
-							<img src={require("../Images/hiringPromo1.jpg")}/>
+							<img src={require("../Images/hiringPromo1.jpg")} className='ImageTab'/>
 							<Apply/>
-							<img src={require("../Images/hiringPromo2.jpg")}/>
+							<img src={require("../Images/hiringPromo2.jpg")} className='ImageTab'/>
 						</VStack>
 						<Flex justifyContent={"center"}><Apply/></Flex>
 					</Box>
@@ -67,9 +67,9 @@ export const Careers = () => {
 						<Flex justifyContent={"center"}><Apply/></Flex> 
 						<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 							<Text fontSize={48} textAlign={"center"}>Positions Available</Text>
-							<img src={require("../Images/hiringPromo1.jpg")}/>
+							<img src={require("../Images/hiringPromo1.jpg")} className='ImagePhone'/>
 							<Apply/>
-							<img src={require("../Images/hiringPromo2.jpg")}/>
+							<img src={require("../Images/hiringPromo2.jpg")} className='ImagePhone'/>
 						</VStack>
 						<Flex justifyContent={"center"}><Apply/></Flex>
 					</Box>

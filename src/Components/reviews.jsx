@@ -79,7 +79,7 @@ export const Review = (props) => {
 				:<></>}
 				{showMobile ?
 				<>
-					<Box border={'1px'} mb={3} background={'gray.100'} marginLeft={3} marginRight={6} borderRadius={4}>
+					<Box border={'1px'} mb={3} background={'gray.100'} marginLeft={3} marginRight={3} borderRadius={4}>
 						<Text fontWeight={'bold'}>{props.companyName} ({props.date})</Text>
 						<Text> <b>&ldquo;</b> <i>{props.comment}</i> <b>&rdquo;</b> </Text>
 						{ratingFunc(props.rating)}

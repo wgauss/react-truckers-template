@@ -45,8 +45,8 @@ export const Services = () => {
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 					<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 					<Text fontSize={28} textAlign={"center"} fontWeight={"bold"}>Services Provided with upmost Professionalism</Text>
-						<img src={require('../Images/service.jpg')}/>
-						<img src={require('../Images/service2.jpg')}/>
+						<img src={require('../Images/service.jpg')} className='ImageDesk'/>
+						<img src={require('../Images/service2.jpg')} className='ImageDesk'/>
 					</VStack>
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 				</Box>
@@ -58,8 +58,8 @@ export const Services = () => {
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 					<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 					<Text fontSize={28} textAlign={"center"} fontWeight={"bold"}>Services Provided with upmost Professionalism</Text>
-						<img src={require('../Images/service.jpg')}/>
-						<img src={require('../Images/service2.jpg')}/>
+						<img src={require('../Images/service.jpg')} className='ImageTab'/>
+						<img src={require('../Images/service2.jpg')} className='ImageTab'/>
 					</VStack>
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 				</Box>
@@ -71,8 +71,8 @@ export const Services = () => {
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 					<VStack marginY={3} bg={"gray.200"} borderRadius={6} border={"1px"}>
 					<Text fontSize={28} textAlign={"center"} fontWeight={"bold"}>Services Provided with upmost Professionalism</Text>
-						<img src={require('../Images/service.jpg')}/>
-						<img src={require('../Images/service2.jpg')}/>
+						<img src={require('../Images/service.jpg')} className='ImagePhone'/>
+						<img src={require('../Images/service2.jpg')} className='ImagePhone'/>
 					</VStack>
 					<Flex justifyContent={"center"}><Link href="/Contact"><Button>Shipper?</Button></Link></Flex>
 				</Box>

@@ -159,7 +159,7 @@ export const Footer = () => {
 								Saturday-Sunday: Closed<br />
 							</Text>
 						</GridItem>
-						<GridItem paddingBottom={3}>
+						<GridItem justifyContent={'center'} display={'flex'} paddingBottom={3}>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3051.80489699429!2d-83.1098274!3d40.1020627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838935d05ab2f23%3A0x9c971993f29450fc!2s6605%20Longshore%20St%2C%20Dublin%2C%20OH%2043017!5e0!3m2!1sen!2sus!4v1681314058861!5m2!1sen!2sus" width="280" height="200" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</GridItem>
 						<GridItem justifyContent={'center'}>
@@ -243,7 +243,6 @@ export const Footer = () => {
 					templateColumns={'repeat(2,1fr)'}
 					templateRows={'repeat(2,1fr)'}
 					py={6}
-					px={2}
 					backgroundColor={'gray.400'}>
 						<GridItem justifyContent={'center'}>
 							<Text textAlign={"left"} fontSize={14} paddingLeft={"25%"}>
@@ -255,7 +254,7 @@ export const Footer = () => {
 								Saturday-Sunday: Closed<br />
 							</Text>
 						</GridItem>
-						<GridItem>
+						<GridItem justifyContent={'center'} display={'flex'}>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3051.80489699429!2d-83.1098274!3d40.1020627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838935d05ab2f23%3A0x9c971993f29450fc!2s6605%20Longshore%20St%2C%20Dublin%2C%20OH%2043017!5e0!3m2!1sen!2sus!4v1681314058861!5m2!1sen!2sus" width="140" height="140" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</GridItem>
 						<GridItem justifyContent={'center'}>
