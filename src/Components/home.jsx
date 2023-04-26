@@ -104,27 +104,27 @@ export const Home = () => {
 			<Grid textAlign={'center'}>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={46} fontWeight={'bold'}>Our Mission | Our Vision</Text>
-					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImageDesk'/>
+					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImageDesk' alt={"img"}/>
 					<Text fontSize={26}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<Box m={3}>
-						<Apply/> <Link href="/Contact"><Button>Shipper?</Button></Link>
+						<Apply/> <Link href="/Contact"><Button size={'lg'}>Shipper?</Button></Link>
 					</Box>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={46} fontWeight={'bold'}>Who are we?</Text>
-					<img src={require("../Images/truckerNig.jpg")} className='ImageDesk'/>
-					<Text fontSize={26}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
+					<Text fontSize={46} fontWeight={'bold'} color={'white'}>Who are we?</Text>
+					<img src={require("../Images/truckerNig.jpg")} className='ImageDesk' alt={"img"}/>
+					<Text fontSize={26} color={'white'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={46} fontWeight={'bold'} >The Difference We Make as a Trusted Company</Text>
-					<img src={require("../Images/LOFT-promo1.jpg")} className='ImageDesk'/>
+					<img src={require("../Images/LOFT-promo1.jpg")} className='ImageDesk' alt={"img"}/>
 					<Text fontSize={26}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={32} fontWeight={'bold'}>Testimonials/Reviews</Text>
+					<Text fontSize={32} fontWeight={'bold'} color={'white'}>Testimonials/Reviews</Text>
 					<HStack justifyContent={'center'} mb={3}>
 						<AiFillStar size={32}/>
 						<AiFillStar size={32}/>
@@ -145,27 +145,27 @@ export const Home = () => {
 			<Grid textAlign={'center'}>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={32} fontWeight={'bold'}>Our Mission | Our Vision</Text>
-					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImageTab'/>
+					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImageTab' alt={"img"}/>
 					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<Box m={3}>
-						<Apply/> <Link href="/Contact"><Button>Shipper?</Button></Link>
+						<Apply/> <Link href="/Contact"><Button size={'lg'}>Shipper?</Button></Link>
 					</Box>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={32} fontWeight={'bold'}>Who are we?</Text>
-					<img src={require("../Images/truckerNig.jpg")} className='ImageTab'/>
-					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
+					<Text fontSize={32} fontWeight={'bold'} color={'white'}>Who are we?</Text>
+					<img src={require("../Images/truckerNig.jpg")} className='ImageTab' alt={"img"}/>
+					<Text color={'white'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={32} fontWeight={'bold'} >The Difference We Make as a Trusted Company</Text>
-					<img src={require("../Images/LOFT-promo1.jpg")} className='ImageTab'/>
+					<img src={require("../Images/LOFT-promo1.jpg")} className='ImageTab' alt={"img"}/>
 					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={32} fontWeight={'bold'}>Testimonials/Reviews</Text>
+					<Text fontSize={32} fontWeight={'bold'} color={'white'}>Testimonials/Reviews</Text>
 					<HStack justifyContent={'center'} mb={3}>
 						<AiFillStar size={32}/>
 						<AiFillStar size={32}/>
@@ -186,27 +186,27 @@ export const Home = () => {
 			<Grid textAlign={'center'}>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={32} fontWeight={'bold'}>Our Mission | Our Vision</Text>
-					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImagePhone'/>
+					<img src={require("../Images/road_distance_1600x900.jpg")} className='ImagePhone' alt={"img"}/>
 					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<Box m={3}>
-						<Apply/> <Link href="/Contact"><Button>Shipper?</Button></Link>
+						<Apply/> <Link href="/Contact"><Button size={'lg'}>Shipper?</Button></Link>
 					</Box>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={32} fontWeight={'bold'}>Who are we?</Text>
-					<img src={require("../Images/truckerNig.jpg")} className='ImagePhone'/>
-					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
+					<Text fontSize={32} fontWeight={'bold'} color={'white'}>Who are we?</Text>
+					<img src={require("../Images/truckerNig.jpg")} className='ImagePhone' alt={"img"}/>
+					<Text color={'white'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={"gray.300"}>
 					<Text fontSize={32} fontWeight={'bold'} >The Difference We Make as a Trusted Company</Text>
-					<img src={require("../Images/LOFT-promo1.jpg")} className='ImagePhone'/>
+					<img src={require("../Images/LOFT-promo1.jpg")} className='ImagePhone' alt={"img"}/>
 					<Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>
 					<hr/>
 				</GridItem>
 				<GridItem background={'#ff4300'}>
-					<Text fontSize={32} fontWeight={'bold'}>Testimonials/Reviews</Text>
+					<Text fontSize={32} fontWeight={'bold'} color={'white'}>Testimonials/Reviews</Text>
 					<HStack justifyContent={'center'} mb={3}>
 						<AiFillStar size={32}/>
 						<AiFillStar size={32}/>

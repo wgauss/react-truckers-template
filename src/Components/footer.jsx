@@ -6,18 +6,16 @@ import '../SCSS/main.scss'
 import { 
 	Grid,
 	GridItem,
-	ListItem,
 	Text, 
-	UnorderedList,
 	Button,
 	Link, 
 	VStack,
-	Box} from '@chakra-ui/react'
+	} from '@chakra-ui/react'
 
 import { AiOutlineMail} from "react-icons/ai"
 
 import { BsPhone} from 'react-icons/bs'
-import { FaFacebookF, FaInstagramSquare, FaPinterestSquare, FaWhatsappSquare} from 'react-icons/fa'
+import {FaInstagramSquare, FaWhatsappSquare} from 'react-icons/fa'
 
 export const Footer = () => {
 	const [showDesktop, setDesktop] = useState(false)
@@ -83,11 +81,6 @@ export const Footer = () => {
 									alignItems={'center'}
 									>
 									<GridItem>
-										<Link href='https://www.facebook.com/people/Landoffirelogistics/100090148963198/?mibextid=LQQJ4d'>
-											<FaFacebookF size={50} />
-										</Link>
-									</GridItem>
-									<GridItem>
 										<Link href='https://www.instagram.com/landoffirelogistics/'>
 											<FaInstagramSquare size={50} />
 										</Link>
@@ -96,11 +89,6 @@ export const Footer = () => {
 										<Link href='https://wa.me/19294414671'>
 											<FaWhatsappSquare size={50} />
 										</Link>	
-									</GridItem>
-									<GridItem >
-										<Link href='https://www.pinterest.com'>
-											<FaPinterestSquare size={50} />
-										</Link>
 									</GridItem>
 								</Grid>
 							</VStack>
@@ -179,11 +167,6 @@ export const Footer = () => {
 									alignItems={'center'}
 									>
 									<GridItem>
-										<Link href='https://www.facebook.com/people/Landoffirelogistics/100090148963198/?mibextid=LQQJ4d'>
-											<FaFacebookF size={32} />
-										</Link>
-									</GridItem>
-									<GridItem>
 										<Link href='https://www.instagram.com/landoffirelogistics/'>
 											<FaInstagramSquare size={32} />
 										</Link>
@@ -192,11 +175,6 @@ export const Footer = () => {
 										<Link href='https://wa.me/19294414671'>
 											<FaWhatsappSquare size={32} />
 										</Link>	
-									</GridItem>
-									<GridItem >
-										<Link href='https://www.pinterest.com'>
-											<FaPinterestSquare size={32} />
-										</Link>
 									</GridItem>
 								</Grid>
 							</VStack>
@@ -274,11 +252,6 @@ export const Footer = () => {
 									alignItems={'center'}
 									>
 									<GridItem>
-										<Link href='https://www.facebook.com/people/Landoffirelogistics/100090148963198/?mibextid=LQQJ4d'>
-											<FaFacebookF size={26} />
-										</Link>
-									</GridItem>
-									<GridItem>
 										<Link href='https://www.instagram.com/landoffirelogistics/'>
 											<FaInstagramSquare size={26} />
 										</Link>
@@ -287,11 +260,6 @@ export const Footer = () => {
 										<Link href='https://wa.me/19294414671'>
 											<FaWhatsappSquare size={26} />
 										</Link>	
-									</GridItem>
-									<GridItem >
-										<Link href='https://www.pinterest.com'>
-											<FaPinterestSquare size={26} />
-										</Link>
 									</GridItem>
 								</Grid>
 							</VStack>

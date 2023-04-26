@@ -1,5 +1,5 @@
 import * as React from 'react' 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Button,
 	useDisclosure,
 	Modal,
@@ -75,7 +75,7 @@ export const Apply = () =>{
 	}
 	return(
 			<>
-				<Button onClick={onOpen}>Apply</Button>
+				<Button onClick={onOpen} size={"lg"}>Apply</Button>
 
 				<Modal isOpen={isOpen} onClose={onClose}>
 					<ModalOverlay />

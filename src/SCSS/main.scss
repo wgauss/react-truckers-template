@@ -16,7 +16,7 @@ img{
 }
 .ImagePhone{
 	height: 100vh;
-	object-fit:scale-down;
+	object-fit: contain;
 }
 #logoTitlePhone{
 	padding-top:3vw;
